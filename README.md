@@ -1,27 +1,39 @@
-# LcrrReviewGds0551
+#Lucía Cristel Ramírez Romero    -    GDS0551
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+tendras que clonarejecutar lo siguiente en una terminal
 
-## Development server
+git clone https://github.com/CristelRR/lcrr-review-gds0551.git 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#Instalación y Uso del Proyecto
 
-## Code scaffolding
+1. Navegar a la Carpeta del Proyecto
+Abre una terminal y navega hasta la carpeta del proyecto utilizando el siguiente comando:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd nombre-de-la-carpeta
 
-## Build
+Asegúrate de reemplazar nombre-de-la-carpeta con el nombre real de la carpeta donde se encuentra tu proyecto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Instalar Dependencias
+Si no tienes las dependencias instaladas, ejecuta el siguiente comando para instalarlas:
 
-## Running unit tests
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+3. Instalar bcryptjs
+Para la encriptación de contraseñas, debes instalar bcryptjs. Ejecuta el siguiente comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+npm install bcryptjs
 
-## Further help
+Uso del Proyecto
+Para ejecutar el proyecto, utiliza el siguiente comando:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng s --open
+
+Esto iniciará el servidor de desarrollo y abrirá automáticamente el navegador en http://localhost:4200/.
+
+Ejecutar JsonServer
+Para ejecutar json-server, utiliza el siguiente comando:
+
+json-server --watch db.json
+
+Esto iniciará json-server y utilizará el archivo db.json como tu base de datos simulada.
