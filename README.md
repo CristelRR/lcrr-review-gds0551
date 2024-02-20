@@ -3,7 +3,7 @@
 #Lucía Cristel Ramírez Romero - GDS0551
 
 # Documentación 
-
+ 
 ## 👾 Clonar el Repositorio 
 
 tendras que clonarejecutar lo siguiente en una terminal
